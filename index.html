@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário alunos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="graduacao.png" type="">
+</head>
+<body>
+    <form>
+        <h2>Cadastro de Provas</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+        <label for="media">Média:</label>
+        <input type="number" id="media" name="media" placeholder="0 a 10" min="0" max="10">
+
+        <label for="periodo">Período Letivo:</label>
+        <input type="month" id="periodo" name="periodo">
+
+        <label for="data">Dia da Prova:</label>
+        <input type="date" id="data" name="data">
+
+        <label for="hora">Horário da Prova:</label>
+        <input type="time" id="hora" name="hora">
+
+        <div class="button-container">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
